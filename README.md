@@ -14,8 +14,11 @@ The Monte Carlo method is performed by repeatedly running a model on a simulated
 3. It is easy to change the assumptions of the models by varying the distribution type or properties of the inputs.
 4. You can easily model correlation between input variables.
 
+### Data Understanding
+The data used in calculating the value at risk of a single asset is historical data on closing stock prices which can be downloaded at https://finance.yahoo.com
+
 ### Required IDE for R Programming
 RStudio (ver. 1.2.5042)
+Packages : Shinithemes
 
-### Required Packagaes
-library(shinythemes)
+
